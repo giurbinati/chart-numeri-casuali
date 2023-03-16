@@ -63,7 +63,8 @@ export default function CreateChart() {
 
 
   function newChart() {
-    console.log("click")
+
+    fetchNumbers();
 
     setChart({ //funzione bottone per cambiare grafico
       labels: numbers, // asse x
